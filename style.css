@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  background-color: var(--Stone-100);
+  height: 2000px;
+  padding-top: 125px;
+  font-size: 16px;
+}
+
+.card {
+  margin: auto;
+  padding-top: 40px;
+  height: 1700px;
+  width: 750px;
+  background-color: var(--White);
+  border-radius: 15px;
+}
+
+.picture {
+  margin: inherit;
+  height: 300px;
+  width: 660px;
+  background-color: aquamarine;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 {
+  margin: auto;
+  height: 120px;
+  width: 660px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 {
+  margin: auto;
+  height: 180px;
+  width: 660px;
+  border-radius: inherit;
+  background-color: var(--Rose-50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 {
+  margin: auto;
+  height: 200px;
+  width: 660px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4 {
+  margin: auto;
+  height: 380px;
+  width: 660px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5 {
+  margin: auto;
+  height: 350px;
+  width: 660px;
+  background-color: rgb(214, 255, 127);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
