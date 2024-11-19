@@ -5,6 +5,9 @@
   padding: 0;
   margin: 0;
 }
+h1{
+  font-size: xxx-large;
+}
 
 :root {
   --White: hsl(0, 0%, 100%);
@@ -15,6 +18,19 @@
   --Brown-800: hsl(14, 45%, 36%);
   --Rose-800: hsl(332, 51%, 32%);
   --Rose-50: hsl(330, 100%, 98%);
+}
+p{
+  color: var(--Stone-600);
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 5px 0px 15px 25px;
+}
+
+.p-footer{
+  margin-bottom: 25px;
 }
 
 body {
@@ -31,11 +47,13 @@ body {
   width: 750px;
   background-color: var(--White);
   border-radius: 15px;
+
 }
 
 .bold {
   font-weight: bold;
-  color: hsl(14, 45%, 36%);
+  color: var(--Brown-800);
+  font-size: larger;
 }
 
 .picture {
@@ -60,7 +78,8 @@ body {
   
 }
 h2{
-  color: hsl(14, 45%, 36%);
+  color:var(--Brown-800);
+  margin: 30px 0;
 }
 
 .section-2 {
@@ -73,6 +92,7 @@ h2{
 }
 li {
   padding: 10px;
+  color: var(--Stone-600);
 }
 .ul-sec2 {
   list-style: none;
@@ -97,7 +117,6 @@ li {
 
 .section-3 {
   margin: auto;
-  height: 200px;
   width: 660px;
   display: flex;
   justify-content: center;
@@ -106,7 +125,6 @@ li {
 
 .section-4 {
   margin: auto;
-  height: 380px;
   width: 660px;
   display: flex;
   flex-direction: column;
@@ -118,17 +136,11 @@ ol{
 
 .section-5 {
   margin: auto;
-  height: 350px;
   width: 660px;
-  background-color: rgb(214, 255, 127);
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
-
 .sec-2 {
   margin-left: 15px;
-}
-.section {
-  margin-bottom: 30px;
 }
