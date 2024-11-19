@@ -33,6 +33,11 @@ body {
   border-radius: 15px;
 }
 
+.bold {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
 .picture {
   margin: inherit;
   height: 300px;
@@ -48,41 +53,67 @@ body {
   margin: auto;
   height: 120px;
   width: 660px;
-  background-color: aqua;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+h2{
+  color: hsl(14, 45%, 36%);
 }
 
 .section-2 {
-  margin: auto;
-  height: 180px;
-  width: 660px;
-  border-radius: inherit;
-  background-color: var(--Rose-50);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff8fc;
+  margin: 0 45px 0 45px;
+  padding-top: 5px;
+}
+.h3sec2 {
+  margin: 20px;
+}
+li {
+  padding: 10px;
+}
+.ul-sec2 {
+  list-style: none;
+}
+.ul-sec2 li::before {
+  content: "•"; /* Dodaje kuglicu */
+  font-size: 1em; /* Smanjuje veličinu kuglice */
+  margin-right: 10px; /* Razmak između kuglice i teksta */
+  color: hsl(24, 5%, 18%)); /* Boja kuglice */
+}
+
+.ul-list li::before {
+  content: "•"; /* Dodaje kuglicu */
+  font-size: 1em; /* Smanjuje veličinu kuglice */
+  margin-right: 10px; /* Razmak između kuglice i teksta */
+  color: hsl(14, 45%, 36%); /* Boja kuglice */
+}
+
+.ul-sec3 {
+  list-style: none;
 }
 
 .section-3 {
   margin: auto;
   height: 200px;
   width: 660px;
-  background-color: beige;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .section-4 {
   margin: auto;
   height: 380px;
   width: 660px;
-  background-color: aquamarine;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+ol{
+  margin-left: 25px;
 }
 
 .section-5 {
@@ -93,4 +124,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sec-2 {
+  margin-left: 15px;
+}
+.section {
+  margin-bottom: 30px;
 }
